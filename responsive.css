@@ -1,0 +1,32 @@
+@media (min-width: 300px) {
+    .content {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .pokemons {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 576px) {
+    .content {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .pokemons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .pokemons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
